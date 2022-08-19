@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding: 20px 35px;
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+header h1 {
+    color: black;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+    
+}
+
+header ul {
+    margin-right: 0;
+}
+
+header li {
+    display: inline;
+    padding: 5px 5px;
+    margin: auto;
+    
+}
+
+header nav ul li {
+    text-decoration: none;
+}
+
+button {
+    margin: auto;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+#quiz-box {
+    margin: auto;
+    padding: 25px 50px;
+}
+
+
+footer {
+    padding: 20px 35px;
+    background-color: darkgrey;
+    color: whitesmoke
+}
