@@ -34,18 +34,35 @@ header li {
 
 header nav ul li {
     text-decoration: none;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
 }
 
 button {
-    margin: auto;
-    padding: 5px;
+    margin: atuo;
+    padding: 12px;
     text-decoration: none;
-
 }
+
+#answers-box ul {
+    list-style: none;
+}
+
+
 
 #quiz-box {
     margin: auto;
     padding: 25px 50px;
+}
+
+#feedback-column {
+    margin: auto;
+    padding: 5px;
+    color: green;
+    border-style: groove;
 }
 
 
