@@ -1,4 +1,3 @@
-document.addEventListener("submit", giveFeedback);
 
 var giveFeedback = function() {
 
@@ -9,6 +8,7 @@ var giveFeedback = function() {
 };
 
 
-document.addEventListener("click", giveFeedback);
+//document.addEventListener("click", giveFeedback);
+document.querySelector("#answer-btn").addEventListener("click", giveFeedback);
 
 
